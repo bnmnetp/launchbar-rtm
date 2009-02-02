@@ -1,0 +1,16 @@
+# LaunchBar Actions for Remember the Milk
+
+## Requirements
+
+* Download the pyrtm Python module
+* Download the Growl Python module
+
+* Get an API key from RTM
+* Configure your API Key and token
+* Create a file called rtmconfig and store the following variables
+        
+        apiKey = "your key"
+        secret = "your secret"
+        token = "your token"
+        
+* Add Search actions for each command to your LaunchBar catalog

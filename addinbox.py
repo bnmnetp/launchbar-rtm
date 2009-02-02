@@ -3,10 +3,7 @@
 from rtm import *
 import sys
 import Growl
-
-apiKey = "d1baafca31e05410b4d4563a6730707e"
-secret = "9478ddbfa4d8cfb9"
-token = "c42dc2bf01dbc4b442c6cab9fb7adc22dc9e69d8"
+from rtmconfig import *
 
 newTask = " ".join(sys.argv[1:])
 

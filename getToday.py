@@ -3,6 +3,7 @@
 from rtm import *
 import sys
 import Growl
+from rtmconfig import *   # load api key and token from rtmconfig
 
 def sendNotify(ts):
     if type(ts.task) == list:
@@ -16,9 +17,6 @@ if len(sys.argv) == 2:
 else:
     command = "today"
 
-apiKey = "d1baafca31e05410b4d4563a6730707e"
-secret = "9478ddbfa4d8cfb9"
-token = "c42dc2bf01dbc4b442c6cab9fb7adc22dc9e69d8"
 
 name = "RTMDue"
 notifications = ["today","tomorrow"]
